@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "ASL Dictionary Extension",
+  "version": "1.0",
+  "description": "Search ASL signs for highlighted words from any webpage.",
+  "permissions": [
+    "contextMenus",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "contextMenu/background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ASL Dictionary Search"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "asl_videos/*/*/*.mp4"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+} 

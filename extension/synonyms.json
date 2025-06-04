@@ -1,0 +1,473 @@
+{
+    "POLICE": [
+        "COP"
+    ],
+    "COP": [
+        "POLICE"
+    ],
+    "FIRE": [
+        "FIRE_BURN",
+        "FIRE_BURN+PLACE",
+        "FIREMAN"
+    ],
+    "FIREMAN": [
+        "FIREMAN"
+    ],
+    "FIREMEN": [
+        "FIREMAN"
+    ],
+    "CRY": [
+        "TEAR",
+        "TEARS",
+        "CRYING",
+        "TEARING"
+    ],
+    "TEAR": [
+        "CRY",
+        "TEARS",
+        "CRYING",
+        "TEARING"
+    ],
+    "US": [
+        "AMERICA",
+        "ns-US"
+    ],
+    "USA": [
+        "AMERICA",
+        "ns-US"
+    ],
+    "AMERICA": [
+        "US",
+        "ns-US",
+        "ns-AMERICA"
+    ],
+    "DEPRESSED": [
+        "SAD"
+    ],
+    "SAD": [
+        "DEPRESSED"
+    ],
+    "SADNESS": [
+        "DEPRESSION"
+    ],
+    "DEPRESSION": [
+        "SADNESS"
+    ],
+    "FLA": [
+        "ns-FLA"
+    ],
+    "HI": [
+        "ns-HI"
+    ],
+    "KC": [
+        "ns-KC"
+    ],
+    "LA": [
+        "ns-LA"
+    ],
+    "SD": [
+        "ns-SD"
+    ],
+    "SF": [
+        "ns-SF"
+    ],
+    "AFRICA": [
+        "ns-AFRICA"
+    ],
+    "AFRICA+NS-AMERICA+AGENT": [
+        "ns-AFRICA+ns-AMERICA+AGENT"
+    ],
+    "AMERICA+SIGN+LANGUAGE": [
+        "ns-AMERICA+SIGN+LANGUAGE"
+    ],
+    "AMERICAN-INDIAN": [
+        "ns-AMERICAN-INDIAN"
+    ],
+    "ARIZONA": [
+        "ns-ARIZONA"
+    ],
+    "ASIA": [
+        "ns-ASIA"
+    ],
+    "ATHENS": [
+        "ns-ATHENS"
+    ],
+    "ATLANTA": [
+        "ns-ATLANTA"
+    ],
+    "AUSTRALIA": [
+        "ns-AUSTRALIA"
+    ],
+    "BALTIMORE": [
+        "ns-BALTIMORE"
+    ],
+    "BANGLADESH": [
+        "ns-BANGLADESH"
+    ],
+    "BELGIUM": [
+        "ns-BELGIUM"
+    ],
+    "BOSTON": [
+        "ns-BOSTON"
+    ],
+    "BRITAIN": [
+        "ns-BRITAIN"
+    ],
+    "BULGARIA": [
+        "ns-BULGARIA"
+    ],
+    "BURGER-KING": [
+        "ns-BURGER-KING"
+    ],
+    "CENTRAL-AMERICA": [
+        "ns-CENTRAL-AMERICA"
+    ],
+    "CHARLOTTE": [
+        "ns-CHARLOTTE"
+    ],
+    "CHICAGO": [
+        "ns-CHICAGO"
+    ],
+    "CHINA": [
+        "ns-CHINA"
+    ],
+    "COKE": [
+        "ns-COKE"
+    ],
+    "COLOR+FS-DO": [
+        "ns-COLOR+fs-DO"
+    ],
+    "COLORADO": [
+        "ns-COLORADO"
+    ],
+    "COLUMBIA": [
+        "ns-COLUMBIA"
+    ],
+    "COSTA-RICA": [
+        "ns-COSTA-RICA"
+    ],
+    "DALLAS": [
+        "ns-DALLAS"
+    ],
+    "DETROIT": [
+        "ns-DETROIT"
+    ],
+    "ECUADOR": [
+        "ns-ECUADOR"
+    ],
+    "EGYPT": [
+        "ns-EGYPT"
+    ],
+    "EL-SALVADOR": [
+        "ns-EL-SALVADOR"
+    ],
+    "ENGLAND_ENGLISH": [
+        "ns-ENGLAND_ENGLISH"
+    ],
+    "EUROPE": [
+        "ns-EUROPE"
+    ],
+    "FORT-WORTH": [
+        "ns-FORT-WORTH"
+    ],
+    "FORT-WORTH-DALLAS": [
+        "ns-FORT-WORTH-DALLAS"
+    ],
+    "FRANCE": [
+        "ns-FRANCE"
+    ],
+    "FS-BEIJING": [
+        "ns-fs-BEIJING"
+    ],
+    "FS-CHILE": [
+        "ns-fs-CHILE"
+    ],
+    "FS-COKE": [
+        "ns-fs-COKE"
+    ],
+    "FS-DALLAS": [
+        "ns-fs-DALLAS"
+    ],
+    "FS-JORDAN": [
+        "ns-fs-JORDAN"
+    ],
+    "GALLAUDET": [
+        "ns-GALLAUDET"
+    ],
+    "GERMANY": [
+        "ns-GERMANY"
+    ],
+    "GOLDENHES": [
+        "ns-GOLDENHES"
+    ],
+    "GREECE": [
+        "ns-GREECE"
+    ],
+    "HAWAII": [
+        "ns-HAWAII"
+    ],
+    "HOLLYWOOD": [
+        "ns-HOLLYWOOD"
+    ],
+    "HOUSTON": [
+        "ns-HOUSTON"
+    ],
+    "HUNGARY": [
+        "ns-HUNGARY"
+    ],
+    "INDIA": [
+        "ns-INDIA"
+    ],
+    "IRAQ": [
+        "ns-IRAQ"
+    ],
+    "IRELAND": [
+        "ns-IRELAND"
+    ],
+    "ISLAND-HAITI": [
+        "ns-ISLAND-HAITI"
+    ],
+    "ISRAEL": [
+        "ns-ISRAEL"
+    ],
+    "ITALY": [
+        "ns-ITALY"
+    ],
+    "JESUS": [
+        "ns-JESUS"
+    ],
+    "JESUS+AGENT": [
+        "ns-JESUS+AGENT"
+    ],
+    "JESUS+BOOK": [
+        "ns-JESUS+BOOK"
+    ],
+    "LINCOLN": [
+        "ns-LINCOLN"
+    ],
+    "LONDON": [
+        "ns-LONDON"
+    ],
+    "MAINE": [
+        "ns-MAINE"
+    ],
+    "MCDONALD": [
+        "ns-MCDONALD"
+    ],
+    "MEXICO": [
+        "ns-MEXICO"
+    ],
+    "MEXICO_SPAIN": [
+        "ns-MEXICO_SPAIN"
+    ],
+    "MIAMI": [
+        "ns-MIAMI"
+    ],
+    "MICKEY-MOUSE": [
+        "ns-MICKEY-MOUSE"
+    ],
+    "MONTANA": [
+        "ns-MONTANA"
+    ],
+    "MOSES": [
+        "ns-MOSES"
+    ],
+    "NAT-AMSTERDAM": [
+        "ns-nat-AMSTERDAM"
+    ],
+    "NAT-AUSTRALIA": [
+        "ns-nat-AUSTRALIA"
+    ],
+    "NAT-AUSTRIA": [
+        "ns-nat-AUSTRIA"
+    ],
+    "NAT-BEIJING": [
+        "ns-nat-BEIJING"
+    ],
+    "NAT-BOLIVIA": [
+        "ns-nat-BOLIVIA"
+    ],
+    "NAT-BOMBAY": [
+        "ns-nat-BOMBAY"
+    ],
+    "NAT-BRAZIL": [
+        "ns-nat-BRAZIL"
+    ],
+    "NAT-CANADA": [
+        "ns-nat-CANADA"
+    ],
+    "NAT-CHILE": [
+        "ns-nat-CHILE"
+    ],
+    "NAT-CHINA": [
+        "ns-nat-CHINA"
+    ],
+    "NAT-CUBA": [
+        "ns-nat-CUBA"
+    ],
+    "NAT-DENMARK": [
+        "ns-nat-DENMARK"
+    ],
+    "NAT-DOMINICAN-REPUBLIC": [
+        "ns-nat-DOMINICAN-REPUBLIC"
+    ],
+    "NAT-DUBLIN": [
+        "ns-nat-DUBLIN"
+    ],
+    "NAT-FINLAND": [
+        "ns-nat-FINLAND"
+    ],
+    "NAT-GERMANY": [
+        "ns-nat-GERMANY"
+    ],
+    "NAT-GREECE": [
+        "ns-nat-GREECE"
+    ],
+    "NAT-GUATEMALA": [
+        "ns-nat-GUATEMALA"
+    ],
+    "NAT-HAMBURG": [
+        "ns-nat-HAMBURG"
+    ],
+    "NAT-HONG-KONG": [
+        "ns-nat-HONG-KONG"
+    ],
+    "NAT-HUNGARY": [
+        "ns-nat-HUNGARY"
+    ],
+    "NAT-INDONESIA": [
+        "ns-nat-INDONESIA"
+    ],
+    "NAT-ISTANBUL": [
+        "ns-nat-ISTANBUL"
+    ],
+    "NAT-ITALY": [
+        "ns-nat-ITALY"
+    ],
+    "NAT-JAMAICA": [
+        "ns-nat-JAMAICA"
+    ],
+    "NAT-JAPAN": [
+        "ns-nat-JAPAN"
+    ],
+    "NAT-JERUSALEM": [
+        "ns-nat-JERUSALEM"
+    ],
+    "NAT-JORDAN": [
+        "ns-nat-JORDAN"
+    ],
+    "NAT-KOREA": [
+        "ns-nat-KOREA"
+    ],
+    "NAT-LEBANON": [
+        "ns-nat-LEBANON"
+    ],
+    "NAT-MALAYSIA": [
+        "ns-nat-MALAYSIA"
+    ],
+    "NAT-MEXICO": [
+        "ns-nat-MEXICO"
+    ],
+    "NAT-MILAN": [
+        "ns-nat-MILAN"
+    ],
+    "NAT-NETHERLANDS": [
+        "ns-nat-NETHERLANDS"
+    ],
+    "NAT-PAKISTAN": [
+        "ns-nat-PAKISTAN"
+    ],
+    "NAT-POLAND": [
+        "ns-nat-POLAND"
+    ],
+    "NAT-RUSSIA": [
+        "ns-nat-RUSSIA"
+    ],
+    "NAT-SHANGHAI": [
+        "ns-nat-SHANGHAI"
+    ],
+    "NAT-SPAIN": [
+        "ns-nat-SPAIN"
+    ],
+    "NAT-SRI-LANKA": [
+        "ns-nat-SRI-LANKA"
+    ],
+    "NAT-THAILAND": [
+        "ns-nat-THAILAND"
+    ],
+    "NAT-TRINIDAD-AND-TOBAGO": [
+        "ns-nat-TRINIDAD-AND-TOBAGO"
+    ],
+    "NETHERLANDS": [
+        "ns-NETHERLANDS"
+    ],
+    "NEW-ORLEANS": [
+        "ns-NEW-ORLEANS"
+    ],
+    "NEW-YORK": [
+        "ns-NEW-YORK"
+    ],
+    "NIGERIA": [
+        "ns-NIGERIA"
+    ],
+    "NORTH-AMERICA": [
+        "ns-NORTH-AMERICA"
+    ],
+    "PARIS": [
+        "ns-PARIS"
+    ],
+    "PEPSI": [
+        "ns-PEPSI"
+    ],
+    "PHILADELPHIA": [
+        "ns-PHILADELPHIA"
+    ],
+    "PINOCCHIO": [
+        "ns-PINOCCHIO"
+    ],
+    "PITTSBURGH": [
+        "ns-PITTSBURGH"
+    ],
+    "PORTUGAL": [
+        "ns-PORTUGAL"
+    ],
+    "PUERTO-RICO": [
+        "ns-PUERTO-RICO"
+    ],
+    "QUEBEC": [
+        "ns-QUEBEC"
+    ],
+    "RICHMOND": [
+        "ns-RICHMOND"
+    ],
+    "RUSSIA": [
+        "ns-RUSSIA"
+    ],
+    "SANTA-CLAUS": [
+        "ns-SANTA-CLAUS"
+    ],
+    "SCOTLAND": [
+        "ns-SCOTLAND"
+    ],
+    "SINGAPORE": [
+        "ns-SINGAPORE"
+    ],
+    "SWEDEN": [
+        "ns-SWEDEN"
+    ],
+    "SWITZERLAND": [
+        "ns-SWITZERLAND"
+    ],
+    "TEXAS": [
+        "ns-TEXAS"
+    ],
+    "VIETNAM": [
+        "ns-VIETNAM"
+    ],
+    "WASHINGTON": [
+        "ns-WASHINGTON"
+    ],
+    "WASHINGTON+FS-DC": [
+        "ns-WASHINGTON+fs-DC"
+    ]
+}

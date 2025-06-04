@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASL Dictionary Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="main-heading">ASL Dictionary Tool</h1>
+  </header>
+  <main>
+    <label for="inputWord">Word or phrase to look up:</label>
+    <input id="search-input" type="text" aria-labelledby="main-heading" placeholder="Highlight or enter a word" />
+    <button id="search-btn">Search</button>
+    <div id="synonym-message"></div>
+    <div id="video-results"></div>
+    <div id="result" aria-live="polite"></div>
+    <p class="tip">
+      Highlight a word or phrase on any page, then open this popup to look up its ASL sign video.
+    </p>
+  </main>
+  <footer>
+    &copy; 2025 Weyehn Reeves
+  </footer>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
