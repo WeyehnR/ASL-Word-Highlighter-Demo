@@ -6,6 +6,7 @@ A Chrome extension and dataset for searching and viewing American Sign Language 
 
 ## Table of Contents
 
+
 - [Project Overview](#project-overview)
 - [Architecture](#architecture)
 - [Prerequisites for Beginners](#prerequisites-for-beginners)
@@ -16,6 +17,12 @@ A Chrome extension and dataset for searching and viewing American Sign Language 
 - [Dataset Source and Citation](#dataset-source-and-citation)
 
 ---
+
+## ASL Dictionary Demo Video
+
+Here is the Demo video if you want to see how this works: [ASL Dictionary Demo Video](https://www.youtube.com/watch?v=23a5A6wCwO0&list=PL3To-7h-Rd9y88FTn0-WfYM58014LUYC4&index=40&ab_channel=WeyehnReeves)
+
+
 
 ## Project Overview
 
