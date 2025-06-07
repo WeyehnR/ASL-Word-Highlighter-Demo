@@ -51,7 +51,13 @@ export class GlossarySearcher {
     }
 
     normalizeWord(word) {
-        return word.trim().toUpperCase();
+        const trimmed = word.trim();
+        const nsMatch = trimmed.match(/^(ns-#?)(.+)$/i);
+        if (nsMatch) {
+            // Preserve ns- or ns-# as lowercase, uppercase the rest
+            return nsMatch[1].toLowerCase() + nsMatch[2].toUpperCase();
+        }
+        return trimmed.toUpperCase();
     }
 
     getAllSynonymVariants(word) {
@@ -63,8 +69,18 @@ export class GlossarySearcher {
     }
 
     getPossibleGlossKeys(word) {
-        // For place names, try with and without ns- and ns-# prefixes
+        // For place names, try with and without ns- and ns-# prefixes, preserving 'ns-' in lowercase
         const normalized = this.normalizeWord(word);
+        // If the word starts with ns- or ns-#, preserve the prefix in lowercase
+        const nsMatch = word.match(/^(ns-#?|NS-#?)(.+)$/i);
+        if (nsMatch) {
+            const prefix = nsMatch[1].toLowerCase();
+            const main = nsMatch[2].toUpperCase();
+            return [
+                `${prefix}${main}`,
+                `${prefix}${main}` // Only one form needed, but keep array for compatibility
+            ];
+        }
         return [
             normalized,
             `ns-${normalized}`,
@@ -73,8 +89,20 @@ export class GlossarySearcher {
     }
 
     searchGlossaryForWord(glossary, word) {
-        const firstLetter = word[0];
-        if (!glossary[firstLetter]) return [];
+        // Handle ns- and ns-# prefixes for correct section lookup
+        let lookupWord = word;
+        let firstLetter = word[0];
+        const nsMatch = word.match(/^ns-#?([A-Z])/i);
+        if (nsMatch) {
+            firstLetter = nsMatch[1].toUpperCase();
+        }
+        // Debug logs
+        console.log('DEBUG: searchGlossaryForWord', { word, firstLetter });
+        if (!glossary[firstLetter]) {
+            console.log('DEBUG: glossary[firstLetter] does not exist', firstLetter);
+            return [];
+        }
+        console.log('DEBUG: keys in glossary[firstLetter]', Object.keys(glossary[firstLetter]));
         const match = this.binarySearch(word, glossary[firstLetter]);
         if (match && glossary[firstLetter][match]) {
             return glossary[firstLetter][match].map(
@@ -87,6 +115,13 @@ export class GlossarySearcher {
     // Binary search implementation
     binarySearch(word, obj) {
         const keys = Object.keys(obj).sort();
+        // First, try exact (case-sensitive) match
+        for (const key of keys) {
+            if (key === word) {
+                return key;
+            }
+        }
+        // Fallback to case-insensitive search (legacy)
         let left = 0;
         let right = keys.length - 1;
         const searchWord = word.toUpperCase();

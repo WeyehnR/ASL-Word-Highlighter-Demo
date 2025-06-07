@@ -62,11 +62,23 @@ window.addEventListener('DOMContentLoaded', () => {
     clearResults();
     resultDiv.textContent = 'Searching...';
     
+    await glossarySearcher.initialize();
+
+    // Print all synonym keys for debugging
+    if (glossarySearcher.synonymMap) {
+      console.log('DEBUG: synonymMap keys =', Object.keys(glossarySearcher.synonymMap));
+    } else {
+      console.log('DEBUG: synonymMap is not loaded');
+    }
+
     const synonyms = getSynonyms(word);
+    console.log('DEBUG: synonyms for', word, '=', synonyms);
     if (synonyms && synonyms.length > 1) {
       renderSuggestions(synonyms, 'Did you mean:', async gloss => {
         clearResults();
+        console.log('DEBUG: Clicked suggestion', gloss);
         const videoPaths = await glossarySearcher.findVideos(gloss);
+        console.log('DEBUG: videoPaths for', gloss, '=', videoPaths);
         renderVideos(videoPaths, `Showing ASL sign(s) for "${gloss.replace(/_/g, ' ')}"`);
       });
       return;
