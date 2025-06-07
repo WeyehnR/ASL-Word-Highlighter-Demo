@@ -1,0 +1,30 @@
+{
+  "name": "special-parakeet",
+  "version": "1.0.0",
+  "description": "A Chrome extension and dataset for searching and viewing American Sign Language (ASL) sign videos for English words, phrases, and place names.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeyehnR/special-parakeet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeyehnR/special-parakeet/issues"
+  },
+  "homepage": "https://github.com/WeyehnR/special-parakeet#readme",
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}

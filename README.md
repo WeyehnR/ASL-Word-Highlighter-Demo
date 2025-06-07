@@ -13,6 +13,7 @@ A Chrome extension and dataset for searching and viewing American Sign Language 
 - [Key Files and Documentation](#key-files-and-documentation)
 - [How to Use](#how-to-use)
 - [Extending the Project](#extending-the-project)
+- [Dataset Source and Citation](#dataset-source-and-citation)
 
 ---
 
@@ -172,6 +173,22 @@ special-parakeet/
 - **Add More Videos:** Place new videos in the correct `asl_videos/` subfolder and update `glossary.json`.
 - **Improve Search Logic:** Edit `search.js` for more advanced matching or new features.
 - **Dataset Management:** Use the Python scripts to automate video and data management.
+
+---
+
+## Dataset Source and Citation
+
+This project uses the American Sign Language Lexicon Video Dataset (ASLLVD) from Boston University.
+
+**Official Citation:**
+
+Neidle, C., Thangali, A., Sclaroff, S., & Vogler, C. (2012).  
+*American Sign Language Lexicon Video Dataset (ASLLVD).* Boston University.  
+[http://www.bu.edu/asllrp/lexicon/](http://www.bu.edu/asllrp/lexicon/)
+
+If you are publishing work based on this dataset, please also cite the following paper:
+
+Neidle, C., Thangali, A., & Sclaroff, S. (2012). Challenges in Development of the American Sign Language Lexicon Video Dataset (ASLLVD) Corpus. *Proceedings of the 5th Workshop on the Representation and Processing of Sign Languages: Interactions between Corpus and Lexicon (LREC 2012)*, Istanbul, Turkey.
 
 ---
 

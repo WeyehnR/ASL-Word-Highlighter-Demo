@@ -1,250 +1,4 @@
 {
-  "#": {
-    "#AC": [
-      "3103.mp4",
-      "Brady_3103.mp4",
-      "Liz_3103.mp4",
-      "Naomi_3103.mp4",
-      "Tyler_3103.mp4"
-    ],
-    "#ALL": [
-      "15007.mp4",
-      "3930.mp4",
-      "Brady_3930.mp4",
-      "Dana_3930.mp4",
-      "Lana_15007.mp4",
-      "Liz_3930.mp4",
-      "Naomi_3930.mp4",
-      "Tyler_3930.mp4"
-    ],
-    "#ASL": [
-      "136_3831_merged.mp4",
-      "Brady_136.mp4",
-      "Brady_3831.mp4",
-      "Liz_136.mp4",
-      "Naomi_136.mp4",
-      "Tyler_136.mp4",
-      "Tyler_3831.mp4"
-    ],
-    "#BACK": [
-      "16199.mp4",
-      "168.mp4",
-      "5473.mp4",
-      "Brady_16199.mp4",
-      "Brady_168.mp4",
-      "Liz_16199.mp4",
-      "Liz_168.mp4",
-      "Naomi_5473.mp4",
-      "Tyler_168.mp4"
-    ],
-    "#BBQ": [
-      "3115.mp4",
-      "Brady_3115.mp4",
-      "Liz_3115.mp4"
-    ],
-    "#BUS": [
-      "351.mp4",
-      "Brady_351.mp4",
-      "Liz_351.mp4",
-      "Naomi_351.mp4",
-      "Tyler_351.mp4"
-    ],
-    "#CC": [
-      "4068.mp4",
-      "Brady_4068.mp4",
-      "Liz_4068.mp4"
-    ],
-    "#CLUB": [
-      "11088.mp4",
-      "Dana_11088.mp4",
-      "Lana_11088.mp4"
-    ],
-    "#CO": [
-      "360.mp4",
-      "Brady_360.mp4",
-      "Liz_360.mp4",
-      "Naomi_360.mp4",
-      "Tyler_360.mp4"
-    ],
-    "#CP": [
-      "361.mp4",
-      "Brady_361.mp4",
-      "Liz_361.mp4",
-      "Naomi_361.mp4"
-    ],
-    "#DO+_WHAT_": [
-      "4545.mp4",
-      "Liz_4545.mp4"
-    ],
-    "#DOG": [
-      "704.mp4",
-      "Brady_704.mp4",
-      "Dana_704.mp4",
-      "Lana_704.mp4",
-      "Liz_704.mp4",
-      "Naomi_704.mp4",
-      "Tyler_704.mp4"
-    ],
-    "#EARLY": [
-      "764_3621_merged.mp4",
-      "Brady_3621.mp4",
-      "Brady_764.mp4",
-      "Liz_3621.mp4",
-      "Liz_764.mp4"
-    ],
-    "#ED": [
-      "3877.mp4",
-      "778.mp4",
-      "Brady_778.mp4",
-      "Liz_3877.mp4",
-      "Liz_778.mp4",
-      "Naomi_778.mp4",
-      "Tyler_778.mp4"
-    ],
-    "#FF": [
-      "16204.mp4",
-      "986.mp4",
-      "Brady_986.mp4",
-      "Dana_986.mp4",
-      "Lana_16204.mp4",
-      "Liz_986.mp4",
-      "Naomi_986.mp4",
-      "Tyler_986.mp4"
-    ],
-    "#FIX": [
-      "16113.mp4",
-      "Liz_16113.mp4",
-      "Naomi_16113.mp4",
-      "Tyler_16113.mp4"
-    ],
-    "#HA-HA": [
-      "4209.mp4",
-      "Brady_4209.mp4",
-      "Liz_4209.mp4"
-    ],
-    "#HR": [
-      "1113.mp4",
-      "Brady_1113.mp4",
-      "Liz_1113.mp4",
-      "Naomi_1113.mp4",
-      "Tyler_1113.mp4"
-    ],
-    "#IF": [
-      "15308.mp4",
-      "Brady_15308.mp4",
-      "Liz_15308.mp4",
-      "Naomi_15308.mp4",
-      "Tyler_15308.mp4"
-    ],
-    "#JOB": [
-      "1305.mp4",
-      "5360.mp4",
-      "Brady_1305.mp4",
-      "Dana_5360.mp4",
-      "Lana_1305.mp4",
-      "Liz_1305.mp4",
-      "Naomi_5360.mp4"
-    ],
-    "#LAB": [
-      "7514.mp4",
-      "Brady_7514.mp4",
-      "Liz_7514.mp4"
-    ],
-    "#MW": [
-      "1471.mp4",
-      "Liz_1471.mp4"
-    ],
-    "#NO": [
-      "1669.mp4",
-      "Dana_1669.mp4",
-      "Lana_1669.mp4",
-      "Liz_1669.mp4"
-    ],
-    "#OD": [
-      "4247.mp4",
-      "Brady_4247.mp4",
-      "Liz_4247.mp4"
-    ],
-    "#OFF": [
-      "1702.mp4",
-      "Brady_1702.mp4",
-      "Liz_1702.mp4"
-    ],
-    "#OK": [
-      "1694.mp4",
-      "Brady_1694.mp4",
-      "Liz_1694.mp4"
-    ],
-    "#OR": [
-      "1695.mp4",
-      "Brady_1695.mp4",
-      "Liz_1695.mp4"
-    ],
-    "#PE": [
-      "1109.mp4",
-      "5312.mp4",
-      "Brady_1109.mp4",
-      "Brady_5312.mp4",
-      "Liz_1109.mp4",
-      "Naomi_1109.mp4"
-    ],
-    "#PIZZA": [
-      "15062.mp4",
-      "Liz_15062.mp4"
-    ],
-    "#PO": [
-      "1921.mp4",
-      "Brady_1921.mp4",
-      "Liz_1921.mp4"
-    ],
-    "#REF": [
-      "2051.mp4",
-      "Brady_2051.mp4",
-      "Liz_2051.mp4"
-    ],
-    "#RR": [
-      "2103.mp4",
-      "Brady_2103.mp4",
-      "Dana_2103.mp4",
-      "Liz_2103.mp4"
-    ],
-    "#SS": [
-      "2334.mp4",
-      "Brady_2334.mp4",
-      "Liz_2334.mp4"
-    ],
-    "#TTY": [
-      "4538.mp4",
-      "Brady_4538.mp4",
-      "Liz_4538.mp4"
-    ],
-    "#TV": [
-      "2551.mp4",
-      "Brady_2551.mp4",
-      "Liz_2551.mp4"
-    ],
-    "#WHAT": [
-      "16216.mp4",
-      "Brady_16216.mp4",
-      "Liz_16216.mp4"
-    ],
-    "#WILL": [
-      "15223.mp4",
-      "Brady_15223.mp4",
-      "Liz_15223.mp4"
-    ],
-    "#WOW": [
-      "2905.mp4",
-      "Brady_2905.mp4",
-      "Liz_2905.mp4"
-    ],
-    "#YES": [
-      "15019_15024_merged.mp4",
-      "Brady_15019.mp4",
-      "Liz_15019.mp4",
-      "Liz_15024.mp4"
-    ]
-  },
   "A": {
     "A": [
       "27.mp4",
@@ -613,13 +367,14 @@
       "Liz_15201.mp4"
     ],
     "ALL": [
-      "74.mp4",
-      "Brady_74.mp4",
-      "Dana_74.mp4",
-      "Lana_74.mp4",
-      "Liz_74.mp4",
-      "Naomi_74.mp4",
-      "Tyler_74.mp4"
+      "15007.mp4",
+      "3930.mp4",
+      "Brady_3930.mp4",
+      "Dana_3930.mp4",
+      "Lana_15007.mp4",
+      "Liz_3930.mp4",
+      "Naomi_3930.mp4",
+      "Tyler_3930.mp4"
     ],
     "ALL-AFTERNOON": [
       "16236.mp4",
@@ -1196,6 +951,22 @@
       "Brady_151.mp4",
       "Liz_151.mp4",
       "Naomi_151.mp4"
+    ],
+    "AC": [
+      "3103.mp4",
+      "Brady_3103.mp4",
+      "Liz_3103.mp4",
+      "Naomi_3103.mp4",
+      "Tyler_3103.mp4"
+    ],
+    "ASL": [
+      "136_3831_merged.mp4",
+      "Brady_136.mp4",
+      "Brady_3831.mp4",
+      "Liz_136.mp4",
+      "Naomi_136.mp4",
+      "Tyler_136.mp4",
+      "Tyler_3831.mp4"
     ]
   },
   "B": {
@@ -1226,8 +997,15 @@
       "Tyler_15744.mp4"
     ],
     "BACK": [
-      "14251.mp4",
-      "Dana_14251.mp4"
+      "16199.mp4",
+      "168.mp4",
+      "5473.mp4",
+      "Brady_16199.mp4",
+      "Brady_168.mp4",
+      "Liz_16199.mp4",
+      "Liz_168.mp4",
+      "Naomi_5473.mp4",
+      "Tyler_168.mp4"
     ],
     "BACKGROUND": [
       "170.mp4",
@@ -2615,6 +2393,18 @@
       "4266.mp4",
       "Brady_4266.mp4",
       "Liz_4266.mp4"
+    ],
+    "BBQ": [
+      "3115.mp4",
+      "Brady_3115.mp4",
+      "Liz_3115.mp4"
+    ],
+    "BUS": [
+      "351.mp4",
+      "Brady_351.mp4",
+      "Liz_351.mp4",
+      "Naomi_351.mp4",
+      "Tyler_351.mp4"
     ]
   },
   "C": {
@@ -4325,6 +4115,29 @@
       "551.mp4",
       "Brady_551.mp4",
       "Naomi_551.mp4"
+    ],
+    "CC": [
+      "4068.mp4",
+      "Brady_4068.mp4",
+      "Liz_4068.mp4"
+    ],
+    "CLUB": [
+      "11088.mp4",
+      "Dana_11088.mp4",
+      "Lana_11088.mp4"
+    ],
+    "CO": [
+      "360.mp4",
+      "Brady_360.mp4",
+      "Liz_360.mp4",
+      "Naomi_360.mp4",
+      "Tyler_360.mp4"
+    ],
+    "CP": [
+      "361.mp4",
+      "Brady_361.mp4",
+      "Liz_361.mp4",
+      "Naomi_361.mp4"
     ]
   },
   "D": {
@@ -5305,6 +5118,19 @@
       "Liz_653.mp4",
       "Naomi_653.mp4",
       "Tyler_653.mp4"
+    ],
+    "DO+_WHAT_": [
+      "4545.mp4",
+      "Liz_4545.mp4"
+    ],
+    "DOG": [
+      "704.mp4",
+      "Brady_704.mp4",
+      "Dana_704.mp4",
+      "Lana_704.mp4",
+      "Liz_704.mp4",
+      "Naomi_704.mp4",
+      "Tyler_704.mp4"
     ]
   },
   "E": {
@@ -6191,6 +6017,22 @@
       "Liz_825.mp4",
       "Naomi_825.mp4",
       "Tyler_825.mp4"
+    ],
+    "EARLY": [
+      "764_3621_merged.mp4",
+      "Brady_3621.mp4",
+      "Brady_764.mp4",
+      "Liz_3621.mp4",
+      "Liz_764.mp4"
+    ],
+    "ED": [
+      "3877.mp4",
+      "778.mp4",
+      "Brady_778.mp4",
+      "Liz_3877.mp4",
+      "Liz_778.mp4",
+      "Naomi_778.mp4",
+      "Tyler_778.mp4"
     ]
   },
   "F": {
@@ -6831,8 +6673,10 @@
       "Liz_5885.mp4"
     ],
     "FIX": [
-      "15403.mp4",
-      "Brady_15403.mp4"
+      "16113.mp4",
+      "Liz_16113.mp4",
+      "Naomi_16113.mp4",
+      "Tyler_16113.mp4"
     ],
     "FLAG": [
       "15423_16372_merged.mp4",
@@ -7446,6 +7290,16 @@
       "Liz_927.mp4",
       "Naomi_927.mp4",
       "Tyler_927.mp4"
+    ],
+    "FF": [
+      "16204.mp4",
+      "986.mp4",
+      "Brady_986.mp4",
+      "Dana_986.mp4",
+      "Lana_16204.mp4",
+      "Liz_986.mp4",
+      "Naomi_986.mp4",
+      "Tyler_986.mp4"
     ]
   },
   "G": {
@@ -9069,6 +8923,18 @@
       "5713.mp4",
       "Brady_5713.mp4",
       "Liz_5713.mp4"
+    ],
+    "HA-HA": [
+      "4209.mp4",
+      "Brady_4209.mp4",
+      "Liz_4209.mp4"
+    ],
+    "HR": [
+      "1113.mp4",
+      "Brady_1113.mp4",
+      "Liz_1113.mp4",
+      "Naomi_1113.mp4",
+      "Tyler_1113.mp4"
     ]
   },
   "I": {
@@ -9163,9 +9029,11 @@
       "Naomi_3529.mp4"
     ],
     "IF": [
-      "2488.mp4",
-      "Brady_2488.mp4",
-      "Liz_2488.mp4"
+      "15308.mp4",
+      "Brady_15308.mp4",
+      "Liz_15308.mp4",
+      "Naomi_15308.mp4",
+      "Tyler_15308.mp4"
     ],
     "IGNITION-OFF": [
       "16312.mp4",
@@ -9751,6 +9619,15 @@
       "Liz_248.mp4",
       "Naomi_248.mp4",
       "Tyler_248.mp4"
+    ],
+    "JOB": [
+      "1305.mp4",
+      "5360.mp4",
+      "Brady_1305.mp4",
+      "Dana_5360.mp4",
+      "Lana_1305.mp4",
+      "Liz_1305.mp4",
+      "Naomi_5360.mp4"
     ]
   },
   "K": {
@@ -10834,6 +10711,11 @@
       "Liz_1452.mp4",
       "Naomi_1452.mp4",
       "Tyler_1452.mp4"
+    ],
+    "LAB": [
+      "7514.mp4",
+      "Brady_7514.mp4",
+      "Liz_7514.mp4"
     ]
   },
   "M": {
@@ -11627,6 +11509,10 @@
       "1581.mp4",
       "Brady_1581.mp4",
       "Liz_1581.mp4"
+    ],
+    "MW": [
+      "1471.mp4",
+      "Liz_1471.mp4"
     ]
   },
   "N": {
@@ -12285,6 +12171,12 @@
       "1692.mp4",
       "Brady_1692.mp4",
       "Liz_1692.mp4"
+    ],
+    "NO": [
+      "1669.mp4",
+      "Dana_1669.mp4",
+      "Lana_1669.mp4",
+      "Liz_1669.mp4"
     ]
   },
   "O": {
@@ -12333,9 +12225,9 @@
       "Tyler_1624.mp4"
     ],
     "OFF": [
-      "1701.mp4",
-      "Brady_1701.mp4",
-      "Liz_1701.mp4"
+      "1702.mp4",
+      "Brady_1702.mp4",
+      "Liz_1702.mp4"
     ],
     "OFFICE": [
       "16033.mp4",
@@ -12649,6 +12541,21 @@
       "1759.mp4",
       "Brady_1759.mp4",
       "Liz_1759.mp4"
+    ],
+    "OD": [
+      "4247.mp4",
+      "Brady_4247.mp4",
+      "Liz_4247.mp4"
+    ],
+    "OK": [
+      "1694.mp4",
+      "Brady_1694.mp4",
+      "Liz_1694.mp4"
+    ],
+    "OR": [
+      "1695.mp4",
+      "Brady_1695.mp4",
+      "Liz_1695.mp4"
     ]
   },
   "P": {
@@ -13203,15 +13110,8 @@
       "Liz_1878.mp4"
     ],
     "PIZZA": [
-      "1881.mp4",
-      "3716.mp4",
-      "3911.mp4",
-      "5666.mp4",
-      "Brady_1881.mp4",
-      "Brady_5666.mp4",
-      "Liz_1881.mp4",
-      "Liz_3716.mp4",
-      "Liz_3911.mp4"
+      "15062.mp4",
+      "Liz_15062.mp4"
     ],
     "PLACE": [
       "16184_16208_merged.mp4",
@@ -13806,6 +13706,19 @@
       "Brady_16328.mp4",
       "Brady_2006.mp4",
       "Liz_2006.mp4"
+    ],
+    "PE": [
+      "1109.mp4",
+      "5312.mp4",
+      "Brady_1109.mp4",
+      "Brady_5312.mp4",
+      "Liz_1109.mp4",
+      "Naomi_1109.mp4"
+    ],
+    "PO": [
+      "1921.mp4",
+      "Brady_1921.mp4",
+      "Liz_1921.mp4"
     ]
   },
   "Q": {
@@ -14469,6 +14382,17 @@
       "16351.mp4",
       "Brady_16351.mp4",
       "Liz_16351.mp4"
+    ],
+    "REF": [
+      "2051.mp4",
+      "Brady_2051.mp4",
+      "Liz_2051.mp4"
+    ],
+    "RR": [
+      "2103.mp4",
+      "Brady_2103.mp4",
+      "Dana_2103.mp4",
+      "Liz_2103.mp4"
     ]
   },
   "S": {
@@ -16378,6 +16302,11 @@
       "2177.mp4",
       "Brady_2177.mp4",
       "Liz_2177.mp4"
+    ],
+    "SS": [
+      "2334.mp4",
+      "Brady_2334.mp4",
+      "Liz_2334.mp4"
     ]
   },
   "T": {
@@ -17503,6 +17432,16 @@
       "Brady_5496.mp4",
       "Brady_5820.mp4",
       "Brady_8724.mp4"
+    ],
+    "TTY": [
+      "4538.mp4",
+      "Brady_4538.mp4",
+      "Liz_4538.mp4"
+    ],
+    "TV": [
+      "2551.mp4",
+      "Brady_2551.mp4",
+      "Liz_2551.mp4"
     ]
   },
   "U": {
@@ -18174,15 +18113,9 @@
       "Liz_3884.mp4"
     ],
     "WHAT": [
-      "3232_5686_merged.mp4",
-      "5687_15371_merged.mp4",
-      "Brady_15371.mp4",
-      "Brady_5687.mp4",
-      "Lana_3232.mp4",
-      "Liz_15371.mp4",
-      "Liz_3232.mp4",
-      "Liz_5686.mp4",
-      "Liz_5687.mp4"
+      "16216.mp4",
+      "Brady_16216.mp4",
+      "Liz_16216.mp4"
     ],
     "WHEEL": [
       "2850.mp4",
@@ -18474,9 +18407,9 @@
       "Liz_4713.mp4"
     ],
     "WOW": [
-      "2906.mp4",
-      "Brady_2906.mp4",
-      "Liz_2906.mp4"
+      "2905.mp4",
+      "Brady_2905.mp4",
+      "Liz_2905.mp4"
     ],
     "WOW_AWFUL": [
       "15146.mp4",
@@ -18528,6 +18461,11 @@
       "Dana_5959.mp4",
       "Lana_5960.mp4",
       "Liz_5959.mp4"
+    ],
+    "WILL": [
+      "15223.mp4",
+      "Brady_15223.mp4",
+      "Liz_15223.mp4"
     ]
   },
   "X": {
@@ -18569,9 +18507,10 @@
       "Liz_2923.mp4"
     ],
     "YES": [
-      "2925.mp4",
-      "Brady_2925.mp4",
-      "Liz_2925.mp4"
+      "15019_15024_merged.mp4",
+      "Brady_15019.mp4",
+      "Liz_15019.mp4",
+      "Liz_15024.mp4"
     ],
     "YESTERDAY": [
       "15832.mp4",

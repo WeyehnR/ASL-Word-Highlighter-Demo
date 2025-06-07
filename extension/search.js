@@ -1,5 +1,5 @@
 // Binary search implementation for glossary lookup
-class GlossarySearcher {
+export class GlossarySearcher {
     constructor() {
         this.glossaryCache = null;
         this.synonymMap = null;
@@ -7,13 +7,44 @@ class GlossarySearcher {
     }
 
     async initialize() {
-        if (this.glossaryCache && this.synonymMap) return;
+        if (this.glossaryCache && this.synonymMap) {
+            console.debug('[GlossarySearcher] Already initialized, skipping');
+            return;
+        }
+        console.debug('[GlossarySearcher] Starting initialization');
         this.isLoading = true;
         try {
+            console.debug('[GlossarySearcher] Fetching glossary data...');
             const glossaryResponse = await fetch(chrome.runtime.getURL('glossary.json'));
-            this.glossaryCache = await glossaryResponse.json();
+            const glossaryData = await glossaryResponse.json();
+            console.debug('[GlossarySearcher] Glossary data received:', {
+                isNull: glossaryData === null,
+                type: typeof glossaryData,
+                keys: Object.keys(glossaryData || {})
+            });
+            if (glossaryData === null || typeof glossaryData !== 'object' || Object.keys(glossaryData).length === 0) {
+                throw new Error('Invalid glossary data format');
+            }
+            this.glossaryCache = glossaryData;
+
+            console.debug('[GlossarySearcher] Fetching synonyms data...');
             const synonymResponse = await fetch(chrome.runtime.getURL('synonyms.json'));
-            this.synonymMap = await synonymResponse.json();
+            const synonymData = await synonymResponse.json();
+            console.debug('[GlossarySearcher] Synonyms data received:', {
+                isNull: synonymData === null,
+                type: typeof synonymData,
+                keys: Object.keys(synonymData || {})
+            });
+            if (synonymData === null || typeof synonymData !== 'object' || Object.keys(synonymData).length === 0) {
+                throw new Error('Invalid synonyms data format');
+            }
+            this.synonymMap = synonymData;
+            console.debug('[GlossarySearcher] Initialization completed successfully');
+        } catch (error) {
+            console.error('[GlossarySearcher] Initialization failed:', error);
+            this.glossaryCache = null;
+            this.synonymMap = null;
+            throw error;
         } finally {
             this.isLoading = false;
         }
@@ -74,7 +105,34 @@ class GlossarySearcher {
         return null;
     }
 
+    // Helper to detect code/injection-like input
+    isSuspiciousInput(word) {
+        const patterns = [
+            /<script.*?>/i,
+            /<img.*?onerror=/i,
+            /function\s*\(/i,
+            /console\.log/i,
+            /var\s+\w+/i,
+            /let\s+\w+/i,
+            /const\s+\w+/i,
+            /\(\)\s*=>/i,
+            /alert\s*\(/i,
+            /SELECT\s+.*FROM/i,
+            /DROP\s+TABLE/i,
+            /--/,
+            /;/,
+            /\|\|/,
+            /\brm\s+-rf\b/i,
+            /onerror=/i
+        ];
+        return patterns.some(re => re.test(word));
+    }
+
     async findVideos(word) {
+        if (this.isSuspiciousInput(word)) {
+            console.warn('[GlossarySearcher] Blocked suspicious input:', word);
+            return [];
+        }
         await this.initialize();
         const allVariants = this.getAllSynonymVariants(word);
         let allVideos = [];
@@ -91,6 +149,10 @@ class GlossarySearcher {
 
     // Get all possible matches for partial word
     async findPartialMatches(word) {
+        if (this.isSuspiciousInput(word)) {
+            console.warn('[GlossarySearcher] Blocked suspicious input:', word);
+            return [];
+        }
         await this.initialize();
         const normalizedWord = this.normalizeWord(word);
         const fuzzyWord = this.normalizeForFuzzy(normalizedWord);
