@@ -6,7 +6,6 @@ A Chrome extension and dataset for searching and viewing American Sign Language 
 
 ## Table of Contents
 
-
 - [Project Overview](#project-overview)
 - [Architecture](#architecture)
 - [Prerequisites for Beginners](#prerequisites-for-beginners)
@@ -14,15 +13,13 @@ A Chrome extension and dataset for searching and viewing American Sign Language 
 - [Key Files and Documentation](#key-files-and-documentation)
 - [How to Use](#how-to-use)
 - [Extending the Project](#extending-the-project)
-- [Dataset Source and Citation](#dataset-source-and-citation)
+- [Dataset Source, Terms of Use, and Citation](#dataset-source-terms-of-use-and-citation)
 
 ---
 
 ## ASL Dictionary Demo Video
 
 Here is the Demo video if you want to see how this works: [ASL Dictionary Demo Video](https://www.youtube.com/watch?v=23a5A6wCwO0&list=PL3To-7h-Rd9y88FTn0-WfYM58014LUYC4&index=40&ab_channel=WeyehnReeves)
-
-
 
 ## Project Overview
 
@@ -183,19 +180,26 @@ special-parakeet/
 
 ---
 
-## Dataset Source and Citation
+## Dataset Source, Terms of Use, and Citation
 
-This project uses the American Sign Language Lexicon Video Dataset (ASLLVD) from Boston University.
+This project uses the **American Sign Language Lexicon Video Dataset (ASLLVD)** from Boston University.
 
-**Official Citation:**
+**Terms of Use:**  
+The data are available for research and educational purposes only. Redistribution or commercial use is not allowed without explicit permission. No patents or copyrights may be based on this material.  
+For more details, see the [official terms of use](http://www.bu.edu/asllrp/).
 
-Neidle, C., Thangali, A., Sclaroff, S., & Vogler, C. (2012).  
-*American Sign Language Lexicon Video Dataset (ASLLVD).* Boston University.  
+**Official Citation:**  
+If you use this dataset, please cite the following:
+
+> Carol Neidle, Ashwin Thangali, and Stan Sclaroff [2012] "Challenges in Development of the American Sign Language Lexicon Video Dataset (ASLLVD) Corpus," Proceedings of the 5th Workshop on the Representation and Processing of Sign Languages: Interactions between Corpus and Lexicon, LREC 2012, Istanbul, Turkey, May 27, 2012.  
+> [http://www.bu.edu/linguistics/UG/LREC2012/LREC-asllvd-final.pdf](http://www.bu.edu/linguistics/UG/LREC2012/LREC-asllvd-final.pdf)
+
+And include the dataset URL:  
 [http://www.bu.edu/asllrp/lexicon/](http://www.bu.edu/asllrp/lexicon/)
 
-If you are publishing work based on this dataset, please also cite the following paper:
+**Additional recommended citations:**
 
-Neidle, C., Thangali, A., & Sclaroff, S. (2012). Challenges in Development of the American Sign Language Lexicon Video Dataset (ASLLVD) Corpus. *Proceedings of the 5th Workshop on the Representation and Processing of Sign Languages: Interactions between Corpus and Lexicon (LREC 2012)*, Istanbul, Turkey.
+- Carol Neidle and Christian Vogler [2012] "A New Web Interface to Facilitate Access to Corpora: Development of the ASLLRP Data Access Interface," Proceedings of the 5th Workshop on the Representation and Processing of Sign Languages: Interactions between Corpus and Lexicon, LREC 2012, Istanbul, Turkey. [PDF](http://www.bu.edu/linguistics/UG/LREC2012/LREC-dai-final.pdf)
 
 ---
 
