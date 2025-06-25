@@ -189,7 +189,6 @@ The data are available for research and educational purposes only. Redistributio
 For more details, see the [official terms of use](http://www.bu.edu/asllrp/).
 
 **Official Citation:**  
-If you use this dataset, please cite the following:
 
 > Carol Neidle, Ashwin Thangali, and Stan Sclaroff [2012] "Challenges in Development of the American Sign Language Lexicon Video Dataset (ASLLVD) Corpus," Proceedings of the 5th Workshop on the Representation and Processing of Sign Languages: Interactions between Corpus and Lexicon, LREC 2012, Istanbul, Turkey, May 27, 2012.  
 > [http://www.bu.edu/linguistics/UG/LREC2012/LREC-asllvd-final.pdf](http://www.bu.edu/linguistics/UG/LREC2012/LREC-asllvd-final.pdf)
@@ -201,14 +200,3 @@ And include the dataset URL:
 
 - Carol Neidle and Christian Vogler [2012] "A New Web Interface to Facilitate Access to Corpora: Development of the ASLLRP Data Access Interface," Proceedings of the 5th Workshop on the Representation and Processing of Sign Languages: Interactions between Corpus and Lexicon, LREC 2012, Istanbul, Turkey. [PDF](http://www.bu.edu/linguistics/UG/LREC2012/LREC-dai-final.pdf)
 
----
-
-## Contributing
-
-- Please follow best practices: avoid deep nesting, use clear names, and keep code DRY.
-- Document new functions and classes.
-- Test changes thoroughly.
-
----
-
-If you have questions or want to contribute, please open an issue or pull request!
