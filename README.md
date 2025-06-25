@@ -1,6 +1,6 @@
 # ASL Dictionary Tool
 
-A Chrome extension and dataset for searching and viewing American Sign Language (ASL) sign videos for English words, phrases, and place names.
+A Chrome extension and dataset for searching and viewing American Sign Language (ASL) sign videos for English words, phrases, and place names. This is the project for testing my idea about the archetecture. This is my first Demo project
 
 ---
 
