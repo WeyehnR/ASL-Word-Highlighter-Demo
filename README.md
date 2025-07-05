@@ -3,10 +3,11 @@
 A Chrome extension and dataset for searching and viewing American Sign Language (ASL) sign videos for English words, phrases, and place names. This is the project for testing my idea about the archetecture. This is my first Demo project
 
 ---
+## 📽️ Demo Video
 
-[![ASL Word Highlighter Demo](https://img.shields.io/badge/📥%20Download%20Demo-10.3MB%20MP4-blue?style=for-the-badge)](./ASL%20Demo%20video.mp4)
+[![ASL Word Highlighter Chrome Extension Demo](https://img.youtube.com/vi/23a5A6wCwOo/maxresdefault.jpg)](https://www.youtube.com/watch?v=23a5A6wCwOo)
 
-*Click above to download the demo video. After download, open the MP4 file with any video player to see the Chrome extension in action.*
+*Click the image above to watch the ASL Word Highlighter demonstration*
 
 **Demo highlights:**
 - ASL word search functionality
