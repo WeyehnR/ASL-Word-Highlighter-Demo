@@ -4,6 +4,12 @@ A Chrome extension and dataset for searching and viewing American Sign Language 
 
 ---
 
+## 📽️ Demo Video
+
+[![ASL Word Highlighter Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-10.3MB%20MP4-blue?style=for-the-badge)](./ASL%20Demo%20video.mp4)
+
+*Click to download and watch the Chrome extension demonstration*
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
